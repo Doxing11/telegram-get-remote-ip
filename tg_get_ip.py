@@ -200,7 +200,7 @@ def main():
             display_whois_info(whois_data)
         else:
             print("[!] Couldn't determine the IP address of the peer.")
-    except (KeyboardInterrupt, EOFError):
+    except (KeyboardInterrupt, EOFError): 
         print("\n[+] Exiting gracefully...")
         pass
 
